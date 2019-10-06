@@ -2,12 +2,12 @@
 {% block content %}
     <div class="list-group">
       <b><a href="#" class="list-group-item list-group-item-action list-group-item-success" hover="none">Services which are currently available!!</a></b>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Income Certificate</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Cast Certificate</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Registration of marriage</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Learner Licence</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Transfer of ownership</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">Police Complaint</a>
-      <a href="#" class="list-group-item list-group-item-action list-group-item">New Connection Request(water , gas)</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Income Certificate</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Cast Certificate</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Registration of marriage</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Learner Licence</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Transfer of ownership</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">Police Complaint</a>
+      <a href="{% url 'RequestForm' %}" class="list-group-item list-group-item-action list-group-item">New Connection Request(water , gas)</a>
     </div>
 {% endblock content %}

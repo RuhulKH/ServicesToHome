@@ -1,0 +1,12 @@
+{% extends "HomeServices/base.html" %}
+{% load Ticket %}
+{% block content %}
+    <article class="media content-section">
+        <div class="article">
+          <a class="mr-2" href="#">your ticket number is {% get_ticket %}</a>
+          <small class="text-muted">request receive at {% now "jS F Y H:i" %}</small>
+        </div>
+
+
+    </article>
+{% endblock content %}
